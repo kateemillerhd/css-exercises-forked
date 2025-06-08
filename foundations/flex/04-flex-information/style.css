@@ -7,26 +7,27 @@ body {
 #info {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   margin-top: 20px;
+  text-align: center;
 }
 
 #plant-container {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
   text-align: center;
+  gap: 52px;
 }
 
 .plant {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  width: 200px;
 }
+
 img {
   width: 100px;
   height: 100px;
